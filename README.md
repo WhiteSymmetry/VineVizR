@@ -5,7 +5,7 @@ A package to visualise RVineMatrix objects with visNetwork
 Install the VineVizR package from inside `R` using the `devtools` library 
 ```r
 library(devtools)
-install_gtithub("HanjoStudy/VineVizR")
+install_github("HanjoStudy/VineVizR")
 library(VineVizR)
 ```
 After packge has succesfully installed, we need to load the libraries that the function will need to generate the network. You can use the helper function `load_pkg` to load all the package. If the package is not installed, this function will install it and then load the library. The package also contain some data that should help illustrate the function use
